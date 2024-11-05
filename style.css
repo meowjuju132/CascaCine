@@ -1,0 +1,59 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-image: url('background.gif'); /* Fundo animado */
+    background-size: cover; /* Faz o fundo cobrir toda a tela */
+    background-color: rgba(100, 0, 100, 0.8); /* Cor de fundo roxa */
+    color: #ffffff; /* Cor do texto */
+  }
+  
+  .site-header {
+    background-color: rgba(80, 0, 80, 0.9); /* Fundo roxo com transparência */
+    padding: 20px;
+    text-align: center;
+  }
+  
+  .site-header h1 {
+    margin: 0;
+    font-size: 2.5em;
+  }
+  
+  .main-content {
+    padding: 20px;
+    text-align: center;
+  }
+  
+  .trailer-container {
+    margin: 0 auto;
+    max-width: 800px; /* Limita a largura do trailer */
+  }
+  
+  .poster-container {
+    margin: 20px 0;
+  }
+  
+  .movie-poster {
+    max-width: 100%; /* Limita a largura do pôster à largura do contêiner */
+    height: auto; /* Mantém a proporção da imagem */
+    border-radius: 8px; /* Bordas arredondadas para o pôster */
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.5); /* Sombra para dar profundidade */
+  }
+  
+  .trailer-info {
+    margin: 20px 0;
+  }
+  
+  .trailer-embed {
+    margin: 20px 0;
+  }
+  
+  .site-footer {
+    background-color: rgba(80, 0, 80, 0.9); /* Fundo roxo com transparência */
+    text-align: center;
+    padding: 10px 0;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+  }
+  
